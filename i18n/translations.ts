@@ -1,0 +1,178 @@
+export const translations = {
+  en: {
+    // Header/Footer
+    headerTitle: 'CropDoctor',
+    footerText: 'Powered by Google Gemini. For informational purposes only. Always consult a professional for critical decisions.',
+    // Language Selector
+    language: 'Language',
+    english: 'English',
+    spanish: 'Spanish',
+    hindi: 'Hindi',
+    telugu: 'Telugu',
+    // HomePage
+    diagnosePlantButton: 'Diagnose My Plant',
+    feature1Title: 'Instant Diagnosis',
+    feature1Text: "Upload an image or type a description for a quick and accurate analysis of your plant's health.",
+    feature2Title: 'Organic Solutions',
+    feature2Text: "Receive eco-friendly and effective treatment recommendations. No harsh chemicals, just nature's best.",
+    feature3Title: 'Prevention Tips',
+    feature3Text: 'Learn how to protect your future crops with tailored prevention advice for every diagnosis.',
+    // DiagnosisPage
+    tabDescribe: 'Describe Symptoms',
+    tabUpload: 'Upload Image',
+    describeLabel: 'Describe the issue with your crop:',
+    describePlaceholder: 'e.g., My tomato plant leaves have yellow spots with brown centers...',
+    uploadPrompt: 'Click to upload an image of the affected plant.',
+    uploadHint: 'PNG, JPG, WEBP up to 4MB',
+    analyzeButton: 'Analyze Plant Health',
+    backButton: 'Back',
+    removeImageLabel: 'Remove image',
+    // DiagnosisPage Errors
+    errorDescription: 'Please describe the symptoms.',
+    errorImage: 'Please upload an image.',
+    errorSize: 'Image size should be less than 4MB.',
+    // AnalysisPage
+    spinner: 'Analyzing, please wait...',
+    analysisFailed: 'Analysis Failed!',
+    analyzeAnotherButton: 'Analyze Another',
+    // ResultCard
+    cropTitle: 'Crop',
+    issueTitle: 'Possible Disease/Issue',
+    causeTitle: 'Possible Cause',
+    treatmentTitle: 'Organic Treatment / Solution',
+    preventionTitle: 'Prevention Tips',
+    expertHelpTitle: 'When to Seek Expert Help',
+  },
+  es: {
+    // Header/Footer
+    headerTitle: 'CropDoctor',
+    footerText: 'Desarrollado por Google Gemini. Solo para fines informativos. Siempre consulte a un profesional para decisiones críticas.',
+    // Language Selector
+    language: 'Idioma',
+    english: 'Inglés',
+    spanish: 'Español',
+    hindi: 'Hindi',
+    telugu: 'Telugu',
+    // HomePage
+    diagnosePlantButton: 'Diagnosticar Mi Planta',
+    feature1Title: 'Diagnóstico Instantáneo',
+    feature1Text: 'Sube una imagen o escribe una descripción para un análisis rápido y preciso de la salud de tu planta.',
+    feature2Title: 'Soluciones Orgánicas',
+    feature2Text: 'Recibe recomendaciones de tratamiento ecológicas y efectivas. Sin químicos agresivos, solo lo mejor de la naturaleza.',
+    feature3Title: 'Consejos de Prevención',
+    feature3Text: 'Aprende a proteger tus futuros cultivos con consejos de prevención personalizados para cada diagnóstico.',
+    // DiagnosisPage
+    tabDescribe: 'Describir Síntomas',
+    tabUpload: 'Subir Imagen',
+    describeLabel: 'Describe el problema con tu cultivo:',
+    describePlaceholder: 'Ej: Las hojas de mi planta de tomate tienen manchas amarillas con centros marrones...',
+    uploadPrompt: 'Haz clic para subir una imagen de la planta afectada.',
+    uploadHint: 'PNG, JPG, WEBP hasta 4MB',
+    analyzeButton: 'Analizar Salud de la Planta',
+    backButton: 'Volver',
+    removeImageLabel: 'Quitar imagen',
+    // DiagnosisPage Errors
+    errorDescription: 'Por favor, describe los síntomas.',
+    errorImage: 'Por favor, sube una imagen.',
+    errorSize: 'El tamaño de la imagen debe ser inferior a 4MB.',
+    // AnalysisPage
+    spinner: 'Analizando, por favor espere...',
+    analysisFailed: '¡El Análisis Falló!',
+    analyzeAnotherButton: 'Analizar Otro',
+    // ResultCard
+    cropTitle: 'Cultivo',
+    issueTitle: 'Posible Enfermedad/Problema',
+    causeTitle: 'Causa Posible',
+    treatmentTitle: 'Tratamiento Orgánico / Solución',
+    preventionTitle: 'Consejos de Prevención',
+    expertHelpTitle: 'Cuándo Buscar Ayuda Experta',
+  },
+  hi: {
+    // Header/Footer
+    headerTitle: 'क्रॉपडॉक्टर',
+    footerText: 'Google Gemini द्वारा संचालित। केवल सूचनात्मक उद्देश्यों के लिए। महत्वपूर्ण निर्णयों के लिए हमेशा एक पेशेवर से परामर्श करें।',
+    // Language Selector
+    language: 'भाषा',
+    english: 'अंग्रेजी',
+    spanish: 'स्पेनिश',
+    hindi: 'हिन्दी',
+    telugu: 'तेलुगु',
+    // HomePage
+    diagnosePlantButton: 'मेरे पौधे का निदान करें',
+    feature1Title: 'तुरंत निदान',
+    feature1Text: 'अपने पौधे के स्वास्थ्य का त्वरित और सटीक विश्लेषण के लिए एक छवि अपलोड करें या विवरण टाइप करें।',
+    feature2Title: 'जैविक समाधान',
+    feature2Text: 'पर्यावरण-अनुकूल और प्रभावी उपचार सिफारिशें प्राप्त करें। कोई कठोर रसायन नहीं, केवल प्रकृति का सर्वश्रेष्ठ।',
+    feature3Title: 'रोकथाम के सुझाव',
+    feature3Text: 'हर निदान के लिए तैयार की गई रोकथाम सलाह के साथ अपनी भविष्य की फसलों की रक्षा करना सीखें।',
+    // DiagnosisPage
+    tabDescribe: 'लक्षणों का वर्णन करें',
+    tabUpload: 'छवि अपलोड करें',
+    describeLabel: 'अपने फसल की समस्या का वर्णन करें:',
+    describePlaceholder: 'उदा., मेरे टमाटर के पौधे की पत्तियों पर भूरे केंद्रों के साथ पीले धब्बे हैं...',
+    uploadPrompt: 'प्रभावित पौधे की एक छवि अपलोड करने के लिए क्लिक करें।',
+    uploadHint: 'PNG, JPG, WEBP 4MB तक',
+    analyzeButton: 'पौधे के स्वास्थ्य का विश्लेषण करें',
+    backButton: 'वापस',
+    removeImageLabel: 'छवि हटाएँ',
+    // DiagnosisPage Errors
+    errorDescription: 'कृपया लक्षणों का वर्णन करें।',
+    errorImage: 'कृपया एक छवि अपलोड करें।',
+    errorSize: 'छवि का आकार 4MB से कम होना चाहिए।',
+    // AnalysisPage
+    spinner: 'विश्लेषण हो रहा है, कृपया प्रतीक्षा करें...',
+    analysisFailed: 'विश्लेषण विफल!',
+    analyzeAnotherButton: 'दूसरा विश्लेषण करें',
+    // ResultCard
+    cropTitle: 'फसल',
+    issueTitle: 'संभावित रोग/समस्या',
+    causeTitle: 'संभावित कारण',
+    treatmentTitle: 'जैविक उपचार / समाधान',
+    preventionTitle: 'रोकथाम के सुझाव',
+    expertHelpTitle: 'विशेषज्ञ की मदद कब लें',
+  },
+  te: {
+    // Header/Footer
+    headerTitle: 'క్రాప్‌డాక్టర్',
+    footerText: 'Google Gemini ద్వారా ఆధారితం. కేవలం సమాచార ప్రయోజనాల కోసం. కీలకమైన నిర్ణయాల కోసం ఎల్లప్పుడూ ఒక నిపుణుడిని సంప్రదించండి.',
+    // Language Selector
+    language: 'భాష',
+    english: 'ఇంగ్లీష్',
+    spanish: 'స్పానిష్',
+    hindi: 'హిందీ',
+    telugu: 'తెలుగు',
+    // HomePage
+    diagnosePlantButton: 'నా మొక్కను నిర్ధారించండి',
+    feature1Title: 'తక్షణ నిర్ధారణ',
+    feature1Text: 'మీ మొక్క ఆరోగ్యం యొక్క త్వరిత మరియు ఖచ్చితమైన విశ్లేషణ కోసం ఒక చిత్రాన్ని అప్‌లోడ్ చేయండి లేదా వివరణను టైప్ చేయండి.',
+    feature2Title: 'సేంద్రీయ పరిష్కారాలు',
+    feature2Text: 'పర్యావరణ అనుకూలమైన మరియు సమర్థవంతమైన చికిత్స సిఫార్సులను స్వీకరించండి. కఠినమైన రసాయనాలు లేవు, కేవలం ప్రకృతి యొక్క ఉత్తమమైనవి.',
+    feature3Title: 'నివారణ చిట్కాలు',
+    feature3Text: 'ప్రతి నిర్ధారణకు అనుగుణంగా నివారణ సలహాతో మీ భవిష్యత్ పంటలను ఎలా రక్షించుకోవాలో తెలుసుకోండి.',
+    // DiagnosisPage
+    tabDescribe: 'లక్షణాలను వివరించండి',
+    tabUpload: 'చిత్రాన్ని అప్‌లోడ్ చేయండి',
+    describeLabel: 'మీ పంట సమస్యను వివరించండి:',
+    describePlaceholder: 'ఉదా., నా టమోటా మొక్క ఆకులపై గోధుమ రంగు కేంద్రాలతో పసుపు మచ్చలు ఉన్నాయి...',
+    uploadPrompt: 'ప్రభావిత మొక్క యొక్క చిత్రాన్ని అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి.',
+    uploadHint: 'PNG, JPG, WEBP 4MB వరకు',
+    analyzeButton: 'మొక్క ఆరోగ్యాన్ని విశ్లేషించండి',
+    backButton: 'వెనుకకు',
+    removeImageLabel: 'చిత్రాన్ని తీసివేయండి',
+    // DiagnosisPage Errors
+    errorDescription: 'దయచేసి లక్షణాలను వివరించండి.',
+    errorImage: 'దయచేసి ఒక చిత్రాన్ని అప్‌లోడ్ చేయండి.',
+    errorSize: 'చిత్రం పరిమాణం 4MB కన్నా తక్కువ ఉండాలి.',
+    // AnalysisPage
+    spinner: 'విశ్లేషిస్తోంది, దయచేసి వేచి ఉండండి...',
+    analysisFailed: 'విశ్లేషణ విఫలమైంది!',
+    analyzeAnotherButton: 'మరొకటి విశ్లేషించండి',
+    // ResultCard
+    cropTitle: 'పంట',
+    issueTitle: 'సాధ్యమయ్యే వ్యాధి/సమస్య',
+    causeTitle: 'సాధ్యమయ్యే కారణం',
+    treatmentTitle: 'సేంద్రీయ చికిత్స / పరిష్కారం',
+    preventionTitle: 'నివారణ చిట్కాలు',
+    expertHelpTitle: 'నిపుణుల సహాయం ఎప్పుడు తీసుకోవాలి',
+  },
+};

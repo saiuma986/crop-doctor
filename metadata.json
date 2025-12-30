@@ -1,0 +1,5 @@
+{
+  "name": "CropDoctor",
+  "description": "An AI-powered tool that identifies crop diseases or nutrient deficiencies from images or text descriptions, and recommends safe, organic treatments for farmers.",
+  "requestFramePermissions": []
+}
